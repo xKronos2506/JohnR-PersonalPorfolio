@@ -1,0 +1,124 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/*font preload*/
+header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/*body*/
+body {
+  padding: 0;
+  margin: 0;
+}
+#head{
+  text-align: center;
+}
+/*navbar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  width: 25%;
+  text-transform: uppercase;
+}
+
+li a, .dropbtn {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: gray;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  min-width: 384px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*portfolio dropdown*/
+.portfolio-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.contain {
+  background-color: gray;
+  margin: 35px 15px;
+}
+
+.img {
+  text-align: center;
+}
+
+.img a {
+  text-decoration: none;
+  color: black;
+}
+
+.img img {
+  width: 350px;
+  height: 400px;
+
+}
+
+.img h1 {
+  margin: 10px 0;
+}
+
+.about-text {
+  margin-left: 25px;
+}
+
+.about-tag {
+  text-decoration: none;
+  color: black;
+}
+
+

@@ -1,0 +1,153 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/*font preload*/
+header, label, h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+input, textarea {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/*body*/
+body {
+  padding: 0;
+  margin: 0;
+}
+#head{
+  text-align: center;
+}
+/*navbar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  width: 25%;
+  text-transform: uppercase;
+}
+
+li a, .dropbtn {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: gray;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  min-width: 384px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  justify-content: center;
+}
+/*contact info containment*/
+.contact-info-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px; /* Space between the info blocks */
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between icon and text */
+}
+
+.info i {
+  font-size: 24px; /* Adjust icon size if needed */
+}
+
+.info .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.info h1 {
+  margin: 0;
+  font-size: 18px; /* Adjust heading size if needed */
+}
+
+.info p {
+  margin: 0;
+  font-size: 16px; /* Adjust paragraph size if needed */
+}
+
+/*form css*/
+.form-right {
+  display: flex;
+  flex-direction: column;
+
+}
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  resize: vertical;
+}
+
+label, input {
+  margin-right: 20px;
+}
